@@ -182,8 +182,6 @@ flowchart TD
     G1 -->|No| G2[Return 404\nNot Found]
     G1 -->|Yes| G3["Return 200 <br> { affected: 1 }"]
 
-## Chạy kiểm thử
-
 ```bash
 # Unit tests
 $ npm run test
