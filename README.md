@@ -181,6 +181,7 @@ flowchart TD
     G --> G1{Affected?}
     G1 -->|No| G2[Return 404\nNot Found]
     G1 -->|Yes| G3["Return 200 <br> { affected: 1 }"]
+```
 
 ```bash
 # Unit tests
@@ -209,4 +210,4 @@ CREATE TABLE account (
 ## Tác giả
 
 - **MSSV:** 24100140
-- **Tên:** [Tên sinh viên]
+- **Tên:** [Trần Hà Dương]
