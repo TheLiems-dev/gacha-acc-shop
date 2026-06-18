@@ -175,7 +175,7 @@ flowchart TD
     B -->|PATCH /account/:id| F[Repository.update\nSET ... WHERE id = :id]
     F --> F1{Affected?}
     F1 -->|No| F2[Return 404\nNot Found]
-    F1 -->|Yes| F3[Return 200\n{ affected: 1 }]
+    F1 -->|Yes| F3[Return 200 <br> { affected: 1 }]
 
     B -->|DELETE /account/:id| G[Repository.delete\nWHERE id = :id]
     G --> G1{Affected?}
